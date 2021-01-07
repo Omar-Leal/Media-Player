@@ -1,0 +1,15 @@
+{
+  "name": "profesionaljavascriptcourse",
+  "version": "1.0.0",
+  "description": "El curso profesional de JavaScript en Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "author": "Omar Leal <omarenriquelealr@>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
