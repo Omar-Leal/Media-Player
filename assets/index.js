@@ -17,4 +17,10 @@ const video = document.querySelector('video');
     button.onclick = () => player.togglePlay();
     unMute.onclick = () => player.toggleMute();
 
+
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('../sw.js').catch(error => {
+            console.log(error.message);
+        });
+    }
      
