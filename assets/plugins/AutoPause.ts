@@ -1,4 +1,4 @@
-import mediaPlayer from "../mediaPlayer.js";
+import mediaPlayer from "../mediaPlayer";
 
 class AutoPause {
 private threshold: number;
